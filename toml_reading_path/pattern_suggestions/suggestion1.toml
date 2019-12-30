@@ -1,0 +1,4 @@
+path = 'C:\PW_private\'
+
+jobs = [{dutName = "S8", runNumber = 12098, Voltage.value = 200.0, Voltage.unit = "V"},
+		{dutName = "S11", runNumber = 11202, Voltage.value = 200.0, Voltage.unit = "V"}]

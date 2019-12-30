@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="InputJobParser">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACAABAAgAAAAAAgAAAAIAACAAQAAAAAAAEI=</HashCode>
+      <FileName>InputJobParser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cpptoml::base">
+    <Position X="4" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABgIACAACAAAgAAAAACAgBAQAABAAAAAEAEEAAAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cpptoml::option&lt;T&gt;" Collapsed="true">
+    <Position X="17.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAMAAAAAwACAAAAACAAAAAgAAAAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cpptoml::fill_guard" Collapsed="true">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAABAAAAAAAAAAAAAAAAAAEAAAABAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cpptoml::value&lt;T&gt;">
+    <Position X="8" Y="9.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="cpptoml::value&lt;T&gt;::make_shared_enabler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>cpptoml.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAgAAAAAAQAAAAAAAACAAAAAgEAAAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cpptoml::array">
+    <Position X="0.5" Y="9.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AEAAICACJABAAAAAAAkIQAAQAAAEAAIAgAAgEAAAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cpptoml::table">
+    <Position X="3" Y="9.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ABAAQCACAABAAoLAAAQIQABSAFAQAAAAAJQgEAAoAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cpptoml::table_array">
+    <Position X="5.5" Y="9.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAACAABAAAAAAAkKQAAQAAACAAIAAAAgFAAAAgA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cpptoml::array_exception" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cpptoml::parse_exception" Collapsed="true">
+    <Position X="10.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cpptoml::consumer&lt;OnError&gt;" Collapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEABAAAEAGAAAAAQAAAAAKAAAAAAAAAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cpptoml::parser" Collapsed="true">
+    <Position X="12.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>HAiAgoATgoQAAQCAAsoAACQSAAAAwBBAAIEqAiYAIAE=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cpptoml::toml_writer" Collapsed="true">
+    <Position X="14.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAACAAAAgAAABQAEAAAAAAABIAEAEQAAEAAAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputJob" Collapsed="true">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAABAAAAIAACAiAAAAAAQAAAARAAAAEAABAAAAEAAAE=</HashCode>
+      <FileName>InputJob.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="cpptoml::local_date" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cpptoml::local_time" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAiCAAAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cpptoml::zone_offset" Collapsed="true">
+    <Position X="3.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cpptoml::local_datetime" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cpptoml::offset_datetime" Collapsed="true">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAADAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cpptoml::is_one_of&lt;T, V&gt;" Collapsed="true">
+    <Position X="10.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cpptoml::is_one_of&lt;T, V, Ts...&gt;" Collapsed="true">
+    <Position X="16" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cpptoml::valid_value&lt;T&gt;" Collapsed="true">
+    <Position X="10.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cpptoml::value_traits&lt;T, typename std::enable_if&lt;valid_value_or_string_convertible&lt;T&gt;::value&gt;::type&gt;" Collapsed="true">
+    <Position X="14.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cpptoml::valid_value_or_string_convertible&lt;T&gt;" Collapsed="true">
+    <Position X="17.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cpptoml::array_of_trait&lt;T&gt;" Collapsed="true">
+    <Position X="10.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cpptoml::array_of_trait&lt;array&gt;" Collapsed="true">
+    <Position X="12.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cpptoml::base_type_traits&lt;std::string&gt;" Collapsed="true">
+    <Position X="10.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cpptoml::base_type_traits&lt;local_time&gt;" Collapsed="true">
+    <Position X="12.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cpptoml::base_type_traits&lt;local_date&gt;" Collapsed="true">
+    <Position X="14.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cpptoml::base_type_traits&lt;local_datetime&gt;" Collapsed="true">
+    <Position X="14.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cpptoml::base_type_traits&lt;offset_datetime&gt;" Collapsed="true">
+    <Position X="17.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cpptoml::base_type_traits&lt;int64_t&gt;" Collapsed="true">
+    <Position X="10.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cpptoml::base_type_traits&lt;double&gt;" Collapsed="true">
+    <Position X="12.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cpptoml::base_type_traits&lt;bool&gt;" Collapsed="true">
+    <Position X="14.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cpptoml::base_type_traits&lt;table&gt;" Collapsed="true">
+    <Position X="16" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cpptoml::base_type_traits&lt;array&gt;" Collapsed="true">
+    <Position X="17.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cpptoml::base_type_traits&lt;table_array&gt;" Collapsed="true">
+    <Position X="16" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cpptoml::value_accept&lt;&gt;" Collapsed="true">
+    <Position X="10.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cpptoml::value_accept&lt;T, Ts...&gt;">
+    <Position X="12.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="cpptoml::datetime" Collapsed="true">
+    <Position X="3" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="cpptoml::base_type">
+    <Position X="13.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAIAAAIAAAAAAAAARAABAAAAEAYAAgAAAAAIAAAAgA=</HashCode>
+      <FileName>cpptoml.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,12 @@
+path = 'S8_12098_900V.root'
+
+
+job1.dutName = "S8"
+job1.runNumber = 12098
+job1.voltage.value = 200.0
+job1.voltage.unit = "V"
+
+job2.dutName = "S11"
+job2.runNumber = 11202
+job2.voltage.value = 200.0
+job2.voltage.unit = "V"

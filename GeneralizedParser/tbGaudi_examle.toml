@@ -1,0 +1,12 @@
+#przykładowy plik konfiguracyjny TOML 
+
+analysis1 = [{DataPath = "C:\\PW_private\\"},
+			 {RunNumber = 12098, Voltage = 200.0, VoltageUnit = "mV"},
+			 {DutName = "S11", RunNumber = 11202, Voltage = 200.0, VoltageUnit = "V"}]
+
+analysis2 = [{DutName = "S8", RunNumber = 12098, Voltage = 200.0, Temp = 30},
+			 {DutName = "S11", RunNumber = 11202, Voltage = 200.0, Temp = 30, DataPath = "C:\\PW_private\\costam"},
+			 {DataPath = "C:\\PW_private\\"}]		
+
+analysis3 = [{DutName = "S8", RunNumber = 12098, Voltage = 200.0, Temp = 30, DataPath = "C:\\PW_private\\"},
+			 {DutName = "S11", RunNumber = 11202, Voltage = 200.0, Temp = 30}]
